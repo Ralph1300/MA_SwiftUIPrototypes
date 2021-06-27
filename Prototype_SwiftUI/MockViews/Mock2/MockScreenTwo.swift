@@ -19,6 +19,7 @@ struct MockScreenTwo: View {
                             lastName: $viewModel.lastName,
                             userImage: $viewModel.userImage)
             GenderSelectionView(isGenderMale: $viewModel.isGenderMale)
+            Divider()
             TextField("Email", text: $viewModel.email)
             SecureField("Password", text: $viewModel.password)
             
