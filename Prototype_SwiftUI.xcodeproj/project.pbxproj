@@ -17,6 +17,8 @@
 		889EE9EC2688AB2600B4B6FF /* MockScreenThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889EE9EB2688AB2600B4B6FF /* MockScreenThree.swift */; };
 		889EE9EE2688B4E800B4B6FF /* MockScreenThreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889EE9ED2688B4E800B4B6FF /* MockScreenThreeViewModel.swift */; };
 		889EE9F12688C4B800B4B6FF /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889EE9F02688C4B800B4B6FF /* PageView.swift */; };
+		889EE9F5268B9FE400B4B6FF /* MockScreenFour.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889EE9F4268B9FE400B4B6FF /* MockScreenFour.swift */; };
+		889EE9F7268BA59A00B4B6FF /* MockScreenFourViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889EE9F6268BA59A00B4B6FF /* MockScreenFourViewModel.swift */; };
 		88F36B5F267E3BD700DFC0A5 /* Prototype_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F36B5E267E3BD700DFC0A5 /* Prototype_SwiftUIApp.swift */; };
 		88F36B61267E3BD700DFC0A5 /* MockScreenOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F36B60267E3BD700DFC0A5 /* MockScreenOne.swift */; };
 		88F36B63267E3BD900DFC0A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F36B62267E3BD900DFC0A5 /* Assets.xcassets */; };
@@ -39,6 +41,9 @@
 		889EE9ED2688B4E800B4B6FF /* MockScreenThreeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockScreenThreeViewModel.swift; sourceTree = "<group>"; };
 		889EE9F02688C4B800B4B6FF /* PageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageView.swift; sourceTree = "<group>"; };
 		889EE9F22688E51A00B4B6FF /* Mock3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mock3.png; sourceTree = "<group>"; };
+		889EE9F3268B9D8100B4B6FF /* Mock4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mock4.png; sourceTree = "<group>"; };
+		889EE9F4268B9FE400B4B6FF /* MockScreenFour.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockScreenFour.swift; sourceTree = "<group>"; };
+		889EE9F6268BA59A00B4B6FF /* MockScreenFourViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockScreenFourViewModel.swift; sourceTree = "<group>"; };
 		88F36B5B267E3BD700DFC0A5 /* Prototype_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Prototype_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		88F36B5E267E3BD700DFC0A5 /* Prototype_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Prototype_SwiftUIApp.swift; sourceTree = "<group>"; };
 		88F36B60267E3BD700DFC0A5 /* MockScreenOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockScreenOne.swift; sourceTree = "<group>"; };
@@ -83,6 +88,8 @@
 		8813CF76267E718E00E6B39E /* Mock4 */ = {
 			isa = PBXGroup;
 			children = (
+				889EE9F4268B9FE400B4B6FF /* MockScreenFour.swift */,
+				889EE9F6268BA59A00B4B6FF /* MockScreenFourViewModel.swift */,
 			);
 			path = Mock4;
 			sourceTree = "<group>";
@@ -111,6 +118,7 @@
 				888AB86226850A340004F203 /* Mock1.png */,
 				888AB86126850A340004F203 /* Mock2.png */,
 				889EE9F22688E51A00B4B6FF /* Mock3.png */,
+				889EE9F3268B9D8100B4B6FF /* Mock4.png */,
 			);
 			path = Mocks;
 			sourceTree = "<group>";
@@ -270,7 +278,9 @@
 				889EE9EC2688AB2600B4B6FF /* MockScreenThree.swift in Sources */,
 				8813CF80267F622A00E6B39E /* ImagePicker.swift in Sources */,
 				8813CF7B267F5FE400E6B39E /* HeaderInputView.swift in Sources */,
+				889EE9F7268BA59A00B4B6FF /* MockScreenFourViewModel.swift in Sources */,
 				8813CF86267F87E000E6B39E /* PickerWrapperView.swift in Sources */,
+				889EE9F5268B9FE400B4B6FF /* MockScreenFour.swift in Sources */,
 				88F36B73267E4F7500DFC0A5 /* MockScreenOneViewModel.swift in Sources */,
 				8813CF84267F751600E6B39E /* MockScreenTwoViewModel.swift in Sources */,
 				889EE9F12688C4B800B4B6FF /* PageView.swift in Sources */,

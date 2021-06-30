@@ -18,6 +18,8 @@ struct Prototype_SwiftUIApp: App {
                     .tabItem { Text("Mock2") }
                 MockScreenThree()
                     .tabItem { Text("Mock3") }
+                MockScreenFour()
+                    .tabItem { Text("Mock4") }
             }
         }
     }
