@@ -17,7 +17,9 @@ struct MockScreenThree: View {
             HStack(spacing: 8) {
                 if currentPage > 0 {
                     Button(action: {
-                        currentPage = 0
+                        withAnimation {
+                            currentPage = 0
+                        }
                     }, label: {
                         Image(systemName: "arrow.backward")
                             .resizable()
@@ -41,13 +43,14 @@ struct MockScreenThree: View {
             
             Divider()
             Button(currentPage == 1 ? "Finish" : "Next") {
-                currentPage = 1
+                withAnimation {
+                    currentPage = 1
+                }
             }
             .buttonStyle(PrimaryButtonStyle())
             .padding(.horizontal, 16)
         }
         .padding(.bottom, 8)
-        .animation(.default)
     }
 }
 
