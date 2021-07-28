@@ -14,7 +14,6 @@
 		8813CF82267F739C00E6B39E /* DatePickerWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813CF81267F739C00E6B39E /* DatePickerWrapperView.swift */; };
 		8813CF84267F751600E6B39E /* MockScreenTwoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813CF83267F751600E6B39E /* MockScreenTwoViewModel.swift */; };
 		8813CF86267F87E000E6B39E /* PickerWrapperView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8813CF85267F87E000E6B39E /* PickerWrapperView.swift */; };
-		883B6195269200E6002FFDED /* MockScreenFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883B6194269200E6002FFDED /* MockScreenFive.swift */; };
 		889EE9EC2688AB2600B4B6FF /* MockScreenThree.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889EE9EB2688AB2600B4B6FF /* MockScreenThree.swift */; };
 		889EE9EE2688B4E800B4B6FF /* MockScreenThreeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889EE9ED2688B4E800B4B6FF /* MockScreenThreeViewModel.swift */; };
 		889EE9F12688C4B800B4B6FF /* PageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 889EE9F02688C4B800B4B6FF /* PageView.swift */; };
@@ -29,6 +28,7 @@
 		88F36B66267E3BD900DFC0A5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88F36B65267E3BD900DFC0A5 /* Preview Assets.xcassets */; };
 		88F36B70267E3F9C00DFC0A5 /* PrimaryButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F36B6F267E3F9C00DFC0A5 /* PrimaryButtonStyle.swift */; };
 		88F36B73267E4F7500DFC0A5 /* MockScreenOneViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F36B72267E4F7500DFC0A5 /* MockScreenOneViewModel.swift */; };
+		88F7191626B1A055008093C4 /* MockScreenFive.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88F7191526B1A055008093C4 /* MockScreenFive.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,7 +39,6 @@
 		8813CF81267F739C00E6B39E /* DatePickerWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerWrapperView.swift; sourceTree = "<group>"; };
 		8813CF83267F751600E6B39E /* MockScreenTwoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockScreenTwoViewModel.swift; sourceTree = "<group>"; };
 		8813CF85267F87E000E6B39E /* PickerWrapperView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PickerWrapperView.swift; sourceTree = "<group>"; };
-		883B6194269200E6002FFDED /* MockScreenFive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = MockScreenFive.swift; path = Prototype_SwiftUI/MockViews/Mock4/MockScreenFive.swift; sourceTree = SOURCE_ROOT; };
 		888AB86126850A340004F203 /* Mock2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mock2.png; sourceTree = "<group>"; };
 		888AB86226850A340004F203 /* Mock1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Mock1.png; sourceTree = "<group>"; };
 		889EE9EB2688AB2600B4B6FF /* MockScreenThree.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockScreenThree.swift; sourceTree = "<group>"; };
@@ -60,6 +59,7 @@
 		88F36B67267E3BD900DFC0A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		88F36B6F267E3F9C00DFC0A5 /* PrimaryButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrimaryButtonStyle.swift; sourceTree = "<group>"; };
 		88F36B72267E4F7500DFC0A5 /* MockScreenOneViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockScreenOneViewModel.swift; sourceTree = "<group>"; };
+		88F7191526B1A055008093C4 /* MockScreenFive.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MockScreenFive.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,7 +105,7 @@
 		8813CF77267E719300E6B39E /* Mock5 */ = {
 			isa = PBXGroup;
 			children = (
-				883B6194269200E6002FFDED /* MockScreenFive.swift */,
+				88F7191526B1A055008093C4 /* MockScreenFive.swift */,
 				88A1D1352694C78600B50A15 /* MockScreenFiveViewModel.swift */,
 			);
 			path = Mock5;
@@ -282,7 +282,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				88F36B70267E3F9C00DFC0A5 /* PrimaryButtonStyle.swift in Sources */,
-				883B6195269200E6002FFDED /* MockScreenFive.swift in Sources */,
 				889EE9EE2688B4E800B4B6FF /* MockScreenThreeViewModel.swift in Sources */,
 				88F36B61267E3BD700DFC0A5 /* MockScreenOne.swift in Sources */,
 				88A1D1382694C9C000B50A15 /* WorkoutFactory.swift in Sources */,
@@ -298,6 +297,7 @@
 				8813CF86267F87E000E6B39E /* PickerWrapperView.swift in Sources */,
 				889EE9F5268B9FE400B4B6FF /* MockScreenFour.swift in Sources */,
 				88F36B73267E4F7500DFC0A5 /* MockScreenOneViewModel.swift in Sources */,
+				88F7191626B1A055008093C4 /* MockScreenFive.swift in Sources */,
 				8813CF84267F751600E6B39E /* MockScreenTwoViewModel.swift in Sources */,
 				889EE9F12688C4B800B4B6FF /* PageView.swift in Sources */,
 			);

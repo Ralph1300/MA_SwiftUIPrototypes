@@ -6,7 +6,7 @@
 //
 
 import SwiftUI
-// Total work time ~ 1h (incl. research)
+
 struct MockScreenOne: View {
     let viewModel = MockScreenOneViewModel()
     
