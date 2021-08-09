@@ -115,29 +115,7 @@ struct UserReviewView: View {
     let reviews: [ExampleUserReview]
     
     var body: some View {
-        VStack(alignment: .leading, spacing: 16.0) {
-            Text(title)
-                .bold()
-            ForEach(0..<reviews.count) { index in
-                HStack {
-                    Image(uiImage: reviews[index].image)
-                        .resizable()
-                        .frame(width: 50, height: 50)
-                        .clipShape(Circle())
-                    
-                    VStack(alignment: .leading, spacing: 4) {
-                        Text("\(reviews[index].name), \(reviews[index].age)")
-                            .bold()
-                        Text(reviews[index].review)
-                            .font(.callout)
-                        if index != reviews.count - 1 {
-                            Divider()
-                        }
-                    }
-                }
-            }
-        }
-        .padding(.horizontal, 16)
+        Text("")
     }
 }
 
